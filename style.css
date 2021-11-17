@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(107, 170, 241);
+}
+
+.note-card {
+    height: 400px;
+    width: 400px;
+    background-color: #c8dfd7;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.note-header {
+    height: 12%;
+    width: 100%;
+    background-color: #9EC862;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.note-header button {
+    height: 50%;
+    margin: 0 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.note-main {
+    height: 88%;
+    width: 100%;
+    overflow: hidden;
+}
+
+textarea {
+    background-color: #e1f5ee;
+    height: 88%;
+    width: 100%;
+    overflow: hidden;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.add {
+    height: 5%;
+    position: fixed;
+    top: 0.5rem;
+    right: 1rem;
+    background-color: #9EC862;
+    border: none;
+    border-radius: 3.5px;
+    width: 6%;
+    cursor: pointer;
+    color: white;
+}
